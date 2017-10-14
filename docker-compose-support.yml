@@ -1,0 +1,14 @@
+version: '2'
+services:
+  eureka-server:
+    image: siddharth67/eureka-server
+    ports:
+     - "8761:8761"
+  config-server:
+    image: siddharth67/config-server
+    ports:
+     - "8888:8888"
+  zipkin-server:
+    image: siddharth67/zipkin-server
+    ports:
+     - "9411:9411"

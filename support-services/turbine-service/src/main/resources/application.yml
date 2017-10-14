@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: turbine.stream
+    
+server:
+ port: 8989
+
+#eureka:
+ #client:
+  # serviceUrl:
+   #   defaultZone: http://localhost:9090/eureka/
+      
+turbine:
+  app-config: employee-details,employee-rating,employee-salary,composite-service
+  cluster-name-expression: new String("default")
+  

@@ -1,0 +1,22 @@
+version: '2'
+services:
+  turbine-server:
+    image: turbine-server
+    ports:
+     - "8989:8989"
+  employee-service:
+    image: employee-service
+    ports:
+     - "1111" 
+  salary-service:
+    image: salary-service
+    ports:
+     - "2222"     
+  rating-service:
+    image: rating-service
+    ports:
+     - "3333"
+  composite-service:
+    image: composite-service
+    ports:
+     - "1234"     

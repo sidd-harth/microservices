@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: employee-rating
+  
+server:
+ port: 3333
+
+    
+   
+#eureka:         #tells about the Eureka server details and its refresh time
+ # instance:
+    #Indicates how often (in seconds) the eureka client needs to send heartbeats to eureka server to indicate that it is still alive. If the heartbeats are not received for the period specified in leaseExpirationDurationInSeconds, eureka
+    #server will remove the instance from its view, there by disallowing traffic to this
+    #instance.
+   # lease-renewal-interval-in-seconds: 30
+    # Indicates the time in seconds that the eureka server waits since it received the last heartbeat before it can remove this instance from its view and there by disallowing traffic to this instance.
+   # lease-expiration-duration-in-seconds: 90 
+    #ipAddress: 192.168.99.100
+   # prefer-ip-address: true
+  #client:
+    #serviceUrl:
+     # defaultZone: http://localhost:8761/eureka/  
+      
+ 
+management:
+  security:
+    enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc.   

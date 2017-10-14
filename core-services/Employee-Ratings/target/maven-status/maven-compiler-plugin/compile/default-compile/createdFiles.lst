@@ -1,0 +1,5 @@
+com\rating\controllers\RatingController.class
+com\rating\model\Rating.class
+com\rating\dao\RatingDAO.class
+com\rating\RatingService.class
+com\rating\SleuthConfigurationClass.class

@@ -1,0 +1,6 @@
+com\composite\CompositeService.class
+com\composite\controllers\CompositeController.class
+com\composite\model\SalaryModel.class
+com\composite\model\RatingModel.class
+com\composite\model\EmployeeAggregated.class
+com\composite\SleuthConfigurationClass.class

@@ -1,0 +1,5 @@
+com\salary\SalaryService.class
+com\salary\dao\SalaryDAO.class
+com\salary\model\Salary.class
+com\salary\controllers\SalaryController.class
+com\salary\SleuthConfigurationClass.class
