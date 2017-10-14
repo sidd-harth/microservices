@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 In total there are 8 services,
 
 | Core-Services     | Support-Services | 
-| ----------------- |-----------------:| 
+| ----------------- |------------------| 
 | Employee-Deatils  |Eureka-Service    |
 | Employee-Salary   |Config-Service    |
 | Employee-Rating   |Turbine-Service   |
