@@ -1,4 +1,4 @@
-# /* This repo is still under construction, loats of stuff needs to be updated. */
+#  This repo is still under construction, lots of stuff needs to be updated. 
 
 
 
