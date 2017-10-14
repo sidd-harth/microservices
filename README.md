@@ -14,6 +14,7 @@ In total there are 8 services,
 | Employee-Rating   |Turbine-Service   |
 | Composite-Service |Zipkin-Service    |
 
+All 4 Core-Services are dependent on Support-Services so always run the Support-Services first & then run the Core-Services.
 
 ### Prerequisites
 
@@ -24,25 +25,25 @@ Maven
 Java 8
 Docker
 WS02 API Manager
-
 ```
 
 ### Running in Docker
 
-A step by step series of examples that tell you have to get a development env running
+Use docker-compose files to start the services within Docker container.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Download the docker-compose files, within Docker run below CMD twice, one for Support-Service YAML.
 
 ```
-until finished
+docker-compose up -d
 ```
 
+And repeat same for Core-Service YAML.
+
+```
+docker-compose up -d
+```
+
+![alt tag](http://prntscr.com/gxhdhw)
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
