@@ -23,7 +23,7 @@ What things you need to install the software and how to install them
 ```
 Maven
 Java 8
-Docker
+Docker needs to run on host 192.168.99.100
 WS02 API Manager
 ```
 
@@ -47,9 +47,9 @@ Once everythings is done, you should be able to see somrthing like this,
 
 ## Running the tests
 
-| Method     | Path | Description |
-| ----------------- |------------------| 
-|GET  |http://192.168.99.100:{docker-port}/composite/1    | Calls other 3 Services & gives Aggreagted Data|
+| Method            | Path                                              | Description                                   |
+| ----------------- |---------------------------------------------------|-----------------------------------------------|
+|GET                |http://192.168.99.100:{docker-port}/composite/1    | Calls other 3 Services & gives Aggreagted Data|
 
 
 ### Break down into end to end tests
