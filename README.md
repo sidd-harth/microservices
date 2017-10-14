@@ -1,3 +1,7 @@
+# /* This repo is still under construction, loats of stuff needs to be updated. */
+
+
+
 # Employee Microservices
 
 This is a proof-of-concept application, which demonstrates Microservice Architecture Pattern using Spring Boot Microservices Managed via Spring Cloud, Netflix OSS, ELK Stack, Docker & WS02 APIM.
