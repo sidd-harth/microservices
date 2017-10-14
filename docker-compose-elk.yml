@@ -1,0 +1,7 @@
+version: '2'
+services:
+  node-test:
+    image: siddharth67/node-microservice
+    ports:
+     - "8761:8761"
+  
