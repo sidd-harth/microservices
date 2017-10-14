@@ -8,14 +8,17 @@ These instructions will get you a copy of the project up and running on your loc
 In total there are 8 services,
 | Core-Services    | Support-Services| 
 | -------------    |:---------------:| 
-|Employee-Deatils  |Eureka-Service   |
-|Employee-Salary   |Config-Service   |
-|Employee-Rating   |Turbine-Service  |
-|Composite-Service |Zipkin-Service   |
+| Employee-Deatils  | Eureka-Service   |
+| Employee-Salary   | Config-Service   |
+| Employee-Rating   | Turbine-Service  |
+| Composite-Service | Zipkin-Service   |
 
-| Tables        | Are           | Cool  |
+| Core-Services        | Support-Services           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Employee-Deatils  |Eureka-Service  | $1600 |
+| Employee-Salary   |Config-Service   |
+| Employee-Rating   |Turbine-Service  |
+| Composite-Service |Zipkin-Service   |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
