@@ -48,12 +48,12 @@ Once everythings is done, you should be able to see somrthing like this,
 ![screenshot_1](https://user-images.githubusercontent.com/28925814/31579483-08951ddc-b155-11e7-9a0a-035d3bae61d9.jpg)
 
 Open Browser & hit following URLs,
-| Service      | Path                              | Description             |
-| -------------|-----------------------------------|-------------------------|
-|Eureka        |http://192.168.99.100:8761/eureka  | Eureka with all Services|
-|Turbine       |http://192.168.99.100:8989/hystrix | Info on Circuit Breakers|
-|Zipkin        |http://192.168.99.100:9411         | Latence Details         |
-|Kibana        |http://192.168.99.100:5601         | Log Analysis            |
+| Service       | Path                               | Description             |
+|---------------|------------------------------------|-------------------------|
+| Eureka        | http://192.168.99.100:8761/eureka  | Eureka with all Services|
+| Turbine       | http://192.168.99.100:8989/hystrix | Info on Circuit Breakers|
+| Zipkin        | http://192.168.99.100:9411         | Latence Details         |
+| Kibana        | http://192.168.99.100:5601         | Log Analysis            |
 
 ## Running the tests
 
@@ -69,7 +69,7 @@ This is just a PoC & hence no versioning is followed as of now.
 
 ## Authors
 
-* **Siddharth Barahalikar** 
+**Siddharth Barahalikar** 
 
 ## License
 
