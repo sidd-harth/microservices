@@ -43,7 +43,8 @@ And repeat same for Core-Service YAML.
 docker-compose up -d
 ```
 
-![alt tag](http://prntscr.com/gxhdhw)
+![screenshot_1](https://user-images.githubusercontent.com/28925814/31579483-08951ddc-b155-11e7-9a0a-035d3bae61d9.jpg)
+
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
