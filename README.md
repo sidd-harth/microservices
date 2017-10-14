@@ -31,25 +31,26 @@ WS02 API Manager
 
 Use docker-compose files to start the services within Docker container.
 
-Download the docker-compose files, within Docker run below CMD twice, one for Support-Service YAML.
+Download the docker-compose files, within Docker run below CMD, one for ELK Compose YAML.
 
 ```
 docker-compose up -d
 ```
 
-And repeat same for Core-Service YAML.
+And repeat same for Support/Core-Service YAML.
 
 ```
 docker-compose up -d
 ```
-
+Once everythings is done, you should be able to see somrthing like this,
 ![screenshot_1](https://user-images.githubusercontent.com/28925814/31579483-08951ddc-b155-11e7-9a0a-035d3bae61d9.jpg)
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+| Method     | Path | Description |
+| ----------------- |------------------| 
+|GET  |http://192.168.99.100:{docker-port}/composite/1    | Calls other 3 Services & gives Aggreagted Data|
+
 
 ### Break down into end to end tests
 
