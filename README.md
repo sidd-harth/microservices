@@ -6,12 +6,18 @@ This is a proof-of-concept application, which demonstrates Microservice Architec
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 In total there are 8 services,
-| Core-Services    | Support-Services   | 
-| ------------- |:-------------:| 
-|Employee-Deatils|Eureka-Service|
-|Employee-Salary|Config-Service|
-|Employee-Rating|Turbine-Service|
-|Composite-Service|Zipkin-Service|
+| Core-Services    | Support-Services| 
+| -------------    |:---------------:| 
+|Employee-Deatils  |Eureka-Service   |
+|Employee-Salary   |Config-Service   |
+|Employee-Rating   |Turbine-Service  |
+|Composite-Service |Zipkin-Service   |
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ### Prerequisites
 
