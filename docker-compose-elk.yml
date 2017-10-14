@@ -1,7 +1,22 @@
 version: '2'
 services:
-  node-test:
-    image: siddharth67/node-microservice
+  elasticsearch:
+    image: elasticsearch
     ports:
-     - "8761:8761"
-  
+     - "9200:9200"
+     - "9300:9300"
+  kibana:
+    image: kibana
+    ports:
+     - "5601:5601"
+    links:
+     - elasticsearch
+  logstash:
+    image: logstash
+    depends_on:
+     - kibana
+     - elasticsearch
+    ports:
+     - "5000:5000"
+    environment:
+     - input { tcp { port => 5000 codec => "json" } } output { elasticsearch { hosts => ["192.168.99.100"] index => "micro-%{serviceName}"} }
