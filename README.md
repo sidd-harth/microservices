@@ -7,12 +7,12 @@ This is a proof-of-concept application, which demonstrates Microservice Architec
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 In total there are 8 services,
 
-| Core-Services     | Support-Services | 
-| ----------------- |------------------| 
-| Employee-Deatils  |Eureka-Service    |
-| Employee-Salary   |Config-Service    |
-| Employee-Rating   |Turbine-Service   |
-| Composite-Service |Zipkin-Service    |
+| Core-Services     | Support-Services | Log Analysis | 
+| ----------------- |------------------|--------------| 
+| Employee-Deatils  |Eureka-Service    |Elastic Search|
+| Employee-Salary   |Config-Service    |Logstash|
+| Employee-Rating   |Turbine-Service   |Kibana|
+| Composite-Service |Zipkin-Service    |Zipkin|
 
 All 4 Core-Services are dependent on Support-Services so always run the Support-Services first & then run the Core-Services.
 
