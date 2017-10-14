@@ -48,6 +48,7 @@ Once everythings is done, you should be able to see somrthing like this,
 ![screenshot_1](https://user-images.githubusercontent.com/28925814/31579483-08951ddc-b155-11e7-9a0a-035d3bae61d9.jpg)
 
 Open Browser & hit following URLs,
+
 | Service       | Path                               | Description             |
 |---------------|------------------------------------|-------------------------|
 | Eureka        | http://192.168.99.100:8761/eureka  | Eureka with all Services|
