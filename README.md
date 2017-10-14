@@ -2,6 +2,8 @@
 
 This is a proof-of-concept application, which demonstrates Microservice Architecture Pattern using Spring Boot Microservices Managed via Spring Cloud, Netflix OSS, ELK Stack, Docker & WS02 APIM.
 
+![micro21](https://user-images.githubusercontent.com/28925814/31579573-b1de33e6-b156-11e7-97cf-fb549ae7ef20.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -45,59 +47,30 @@ docker-compose up -d
 Once everythings is done, you should be able to see somrthing like this,
 ![screenshot_1](https://user-images.githubusercontent.com/28925814/31579483-08951ddc-b155-11e7-9a0a-035d3bae61d9.jpg)
 
+Open Browser & hit following URLs,
+| Service            | Path                                              | Description                                   |
+| ----------------- |---------------------------------------------------|-----------------------------------------------|
+|Eureka                |http://192.168.99.100:8761/eureka    | Eureka with all Services|
+|Turbine                |http://192.168.99.100:8989/hystrix    | Info on Circuit Breakers|
+|Zipkin                |http://192.168.99.100:9411    | Latence Details|
+|Kibana                |http://192.168.99.100:5601    | Log Analysis|
+
 ## Running the tests
 
 | Method            | Path                                              | Description                                   |
 | ----------------- |---------------------------------------------------|-----------------------------------------------|
 |GET                |http://192.168.99.100:{docker-port}/composite/1    | Calls other 3 Services & gives Aggreagted Data|
+|GET                |http://192.168.99.100:{docker-port}/zipkin-test    | Check Zipkin UI|
 
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+This is just a PoC & hence no versioning is followed as of now.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Siddharth Barahalikar** 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
